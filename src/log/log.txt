@@ -6537,3 +6537,1154 @@
 [2019-10-15 18:28:59] INFO [log_case_info: case_log.py, 16] 请求参数：29rexl5yfu7k
 [2019-10-15 18:28:59] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
 [2019-10-15 18:28:59] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:28:12] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:12] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:12] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:14] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic.json HTTP/1.1" 200 None
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 14] 测试用例：test_a_post_dynamic
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic.json
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 16] 请求参数：{"content":"#日常#水经验","access_type":"0","province":"四川","city":"成都","images":"","access_condition":""}
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:28:14] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:14] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:14] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:14] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-11-04 15:28:14] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:14] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:14] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:14] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic/del.json HTTP/1.1" 200 None
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 14] 测试用例：test_b_delete_quanquan
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/del.json
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 16] 请求参数：2iz9mz21hqr7
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:28:14] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:28:14] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:14] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:14] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/lists.json HTTP/1.1" 200 None
+[2019-11-04 15:28:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic.json?id=2iq6f9b1pm9k HTTP/1.1" 200 None
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_dynamic_detail
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic.json
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:28:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-11-04 15:28:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_dynamiclist
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/dynamiclists.json
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 16] 请求参数：2iq6k7c98bcf
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:28:15] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:28:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:16] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-11-04 15:28:16] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:16] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:16] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:16] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/lists.json HTTP/1.1" 200 None
+[2019-11-04 15:28:16] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_focus_dynamiclist
+[2019-11-04 15:28:16] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/lists.json
+[2019-11-04 15:28:16] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2019-11-04 15:28:16] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:28:16] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:28:16] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:16] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:16] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:17] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-11-04 15:28:17] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:17] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:28:17] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:28:17] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic/createtopic.json HTTP/1.1" 200 None
+[2019-11-04 15:28:17] INFO [log_case_info: case_log.py, 14] 测试用例：test_post_dynamic_createtopic
+[2019-11-04 15:28:17] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/createtopic.json
+[2019-11-04 15:28:17] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2019-11-04 15:28:17] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:28:17] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:35:07] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:35:07] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:35:07] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:35:08] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /v2/activity/teamurl.json HTTP/1.1" 200 None
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/teamurl.json
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:35:08] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:35:08] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:35:08] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:35:08] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /v2/common/shareinfo.json HTTP/1.1" 200 None
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 14] 测试用例：test_shareinfo
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/common/shareinfo.json
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 16] 请求参数：{"type":"1","target":"2","relation_id":"1xweyk1lmjlk"}
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:35:08] INFO [log_case_info: case_log.py, 18] 实际结果：300102
+[2019-11-04 15:35:46] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:35:46] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:35:46] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:35:46] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /v2/activity/teamurl.json HTTP/1.1" 200 None
+[2019-11-04 15:35:46] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2019-11-04 15:35:46] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/teamurl.json
+[2019-11-04 15:35:46] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-11-04 15:35:46] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:35:46] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:35:46] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:35:46] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:35:46] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:35:46] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/common/shareinfo.json HTTP/1.1" 500 None
+[2019-11-04 15:36:58] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:36:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:36:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:36:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /v2/activity/teamurl.json HTTP/1.1" 200 None
+[2019-11-04 15:36:59] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2019-11-04 15:36:59] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/teamurl.json
+[2019-11-04 15:36:59] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-11-04 15:36:59] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:36:59] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:36:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:36:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:36:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:36:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/common/shareinfo.json HTTP/1.1" 500 None
+[2019-11-04 15:58:47] ERROR [test_a_post_adreward: test_v2_api.py, 63] 用例数据不存在
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/adfinish.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_b_post_adreward
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/adfinish.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":""}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/activity/lists.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_activity_list
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/lists.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/adflow.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_adflow
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/adflow.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/demand/category.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_demand_category
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/demand/category.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{"type":"skill"}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/demand/list.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_demand_list
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/demand/list.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{"row":"10","page":"1","type":"offical","category":"tiket","is_free":"1"}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/reward.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_reward
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/reward.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":""}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/signlists.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_signlists
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/signlists.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/signreward.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_signreward
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/signreward.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：100010
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /v2/activity/teamurl.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/teamurl.json
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-11-04 15:58:48] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-11-04 15:58:48] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-11-04 15:58:48] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/common/shareinfo.json HTTP/1.1" 500 None
+[2019-12-02 14:51:36] INFO [<module>: run_main.py, 10] =============测试开始============
+[2019-12-02 14:51:36] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:36] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:36] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:38] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic.json HTTP/1.1" 200 None
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 14] 测试用例：test_a_post_dynamic
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic.json
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 16] 请求参数：{"content":"#日常#水经验","access_type":"0","province":"四川","city":"成都","images":"","access_condition":""}
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:38] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:38] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:38] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:38] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:38] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:38] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:38] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:38] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic/del.json HTTP/1.1" 200 None
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 14] 测试用例：test_b_delete_quanquan
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/del.json
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 16] 请求参数：2kf2lzd2q8eo
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:38] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:38] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:38] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:38] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:39] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/lists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:39] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:39] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:39] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:39] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic.json?id=2k21neez5lr3 HTTP/1.1" 200 None
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_dynamic_detail
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic.json
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:39] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:39] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:39] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:39] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:39] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:39] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:39] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:39] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_dynamiclist
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/dynamiclists.json
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 16] 请求参数：2iq6k7c98bcf
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:39] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:39] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:39] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:39] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:40] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:40] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:40] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:40] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:40] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/lists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_focus_dynamiclist
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/lists.json
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:40] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:40] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:40] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:40] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:40] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:40] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:40] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:40] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic/createtopic.json HTTP/1.1" 200 None
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 14] 测试用例：test_post_dynamic_createtopic
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/createtopic.json
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:40] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET //dynamic/topictags.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_official_topictags
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083//dynamic/topictags.json
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /topic.json?id=23hu58lap4qb HTTP/1.1" 200 None
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_topic_detail
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/topic.json
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":"23hu58lap4qb"}
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/topiclists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_topic_list
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/topiclists.json
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/listsbytopic.json?id=+23hu58lap4qb&cond=0&sort=0 HTTP/1.1" 200 None
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 14] 测试用例：test_listsbytopic
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/listsbytopic.json
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":" 23hu58lap4qb","cond":"0","sort":"0"}
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_login_normal
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/login.json
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","captcha":"123456"}
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_login_password_wrong
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/login.json
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","captcha":"123458"}
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 17] 期望结果：100009.0
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 18] 实际结果：100009
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/membertags.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_membertags
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/membertags.json
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:41] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_Retrieve_password
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"2"}
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:41] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:41] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_answer
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"8"}
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_bphone
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"1"}
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_captchalogin
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"6"}
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_change_tradepd
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"11"}
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_changephone
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"4"}
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_reg
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"3"}
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 17] 期望结果：100003.0
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 18] 实际结果：100003
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_set_tradepd
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"10"}
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:42] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_qq
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "1","qq_openid":"BAB69821C0A1D6070490BE624733EEBD"}
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:42] INFO [log_case_info: case_log.py, 18] 实际结果：200033
+[2019-12-02 14:51:42] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:43] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_wb
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "3","wb_openid":"5523464653"}
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:43] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:43] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_wx
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "2","wx_openid":"oRbznw-scYQ3qMVKIMsPHBoIcXxI"}
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:43] ERROR [test_a_post_adreward: test_v2_api.py, 63] 用例数据不存在
+[2019-12-02 14:51:43] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:43] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:43] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:43] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/adfinish.json HTTP/1.1" 200 None
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 14] 测试用例：test_b_post_adreward
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/adfinish.json
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":""}
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2019-12-02 14:51:43] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:43] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:43] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:43] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/activity/lists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_activity_list
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/lists.json
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-12-02 14:51:43] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/adflow.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_adflow
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/adflow.json
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/demand/category.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_demand_category
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/demand/category.json
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 16] 请求参数：{"type":"skill"}
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/demand/list.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_demand_list
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/demand/list.json
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 16] 请求参数：{"row":"10","page":"1","type":"offical","category":"tiket","is_free":"1"}
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/reward.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_reward
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/reward.json
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":""}
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/signlists.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_signlists
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/signlists.json
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/signreward.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_signreward
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/signreward.json
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：100010
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /v2/activity/teamurl.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/teamurl.json
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2019-12-02 14:51:44] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/common/shareinfo.json HTTP/1.1" 200 None
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 14] 测试用例：test_shareinfo
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/common/shareinfo.json
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 16] 请求参数：{"type":"1","target":"2","relation_id":"1xweyk1lmjlk"}
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2019-12-02 14:51:44] INFO [log_case_info: case_log.py, 18] 实际结果：300081
+[2019-12-02 14:51:45] ERROR [send_email: send_email.py, 34] (535, b'Error: authentication failed, system busy')
+[2019-12-02 14:51:45] INFO [<module>: run_main.py, 15] ================测试结束============
+[2020-02-07 17:34:55] INFO [<module>: run_main.py, 10] =============测试开始============
+[2020-02-07 17:34:55] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:56] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:56] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:57] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic.json HTTP/1.1" 200 None
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 14] 测试用例：test_a_post_dynamic
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic.json
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 16] 请求参数：{"content":"#日常#水经验","access_type":"0","province":"四川","city":"成都","images":"","access_condition":""}
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:34:57] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:57] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:57] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:57] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-07 17:34:57] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:57] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:57] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:57] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic/del.json HTTP/1.1" 200 None
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 14] 测试用例：test_b_delete_quanquan
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/del.json
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 16] 请求参数：2nvcu5cnltvg
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:34:57] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:34:57] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:57] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:57] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:58] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/lists.json HTTP/1.1" 200 None
+[2020-02-07 17:34:58] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:58] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:58] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:58] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic.json?id=2k21neez5lr3 HTTP/1.1" 200 None
+[2020-02-07 17:34:58] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_dynamic_detail
+[2020-02-07 17:34:58] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic.json
+[2020-02-07 17:34:58] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2020-02-07 17:34:58] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:34:58] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:34:58] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:58] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:58] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:58] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-07 17:34:58] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:58] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:58] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_dynamiclist
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/dynamiclists.json
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 16] 请求参数：2iq6k7c98bcf
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:34:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-07 17:34:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/lists.json HTTP/1.1" 200 None
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_focus_dynamiclist
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/lists.json
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:34:59] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:34:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:34:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:34:59] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-07 17:34:59] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic/createtopic.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 14] 测试用例：test_post_dynamic_createtopic
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/createtopic.json
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET //dynamic/topictags.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_official_topictags
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083//dynamic/topictags.json
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /topic.json?id=23hu58lap4qb HTTP/1.1" 200 None
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_topic_detail
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/topic.json
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":"23hu58lap4qb"}
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/topiclists.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_topic_list
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/topiclists.json
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/listsbytopic.json?id=+23hu58lap4qb&cond=0&sort=0 HTTP/1.1" 200 None
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 14] 测试用例：test_listsbytopic
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/listsbytopic.json
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":" 23hu58lap4qb","cond":"0","sort":"0"}
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_login_normal
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/login.json
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","captcha":"123456"}
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_login_password_wrong
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/login.json
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","captcha":"123458"}
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 17] 期望结果：100009.0
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 18] 实际结果：100009
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:00] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/membertags.json HTTP/1.1" 200 None
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_membertags
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/membertags.json
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:00] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:00] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_Retrieve_password
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"2"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_answer
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"8"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_bphone
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"1"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_captchalogin
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"6"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_change_tradepd
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"11"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_changephone
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"4"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_reg
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"3"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：100003.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：100003
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_set_tradepd
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"10"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_qq
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "1","qq_openid":"BAB69821C0A1D6070490BE624733EEBD"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200033
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_wb
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "3","wb_openid":"5523464653"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:01] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:01] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_wx
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "2","wx_openid":"oRbznw-scYQ3qMVKIMsPHBoIcXxI"}
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:01] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:02] ERROR [test_a_post_adreward: test_v2_api.py, 63] 用例数据不存在
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/adfinish.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_b_post_adreward
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/adfinish.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":""}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/activity/lists.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_activity_list
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/lists.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/adflow.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_adflow
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/adflow.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/demand/category.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_demand_category
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/demand/category.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{"type":"skill"}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/demand/list.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_demand_list
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/demand/list.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{"row":"10","page":"1","type":"offical","category":"tiket","is_free":"1"}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/reward.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_reward
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/reward.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":""}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/signlists.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_signlists
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/signlists.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/signreward.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_signreward
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/signreward.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：100010
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /v2/activity/teamurl.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/teamurl.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-07 17:35:02] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/common/shareinfo.json HTTP/1.1" 200 None
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 14] 测试用例：test_shareinfo
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/common/shareinfo.json
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 16] 请求参数：{"type":"1","target":"2","relation_id":"1xweyk1lmjlk"}
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-07 17:35:02] INFO [log_case_info: case_log.py, 18] 实际结果：300081
+[2020-02-07 17:35:05] INFO [send_email: send_email.py, 32] 邮件发送完成
+[2020-02-07 17:35:05] INFO [<module>: run_main.py, 15] ================测试结束============
+[2020-02-25 16:28:24] INFO [<module>: run_main.py, 10] =============测试开始============
+[2020-02-25 16:28:24] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:25] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:25] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:26] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic.json HTTP/1.1" 200 None
+[2020-02-25 16:28:26] INFO [log_case_info: case_log.py, 14] 测试用例：test_a_post_dynamic
+[2020-02-25 16:28:26] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic.json
+[2020-02-25 16:28:26] INFO [log_case_info: case_log.py, 16] 请求参数：{"content":"#日常#水经验","access_type":"0","province":"四川","city":"成都","images":"","access_condition":""}
+[2020-02-25 16:28:26] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:26] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:26] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:26] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:26] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic/del.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 14] 测试用例：test_b_delete_quanquan
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/del.json
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 16] 请求参数：2oslqo80cmj3
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/lists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic.json?id=2k21neez5lr3 HTTP/1.1" 200 None
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_dynamic_detail
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic.json
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:27] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:27] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:27] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:28] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_dynamiclist
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/dynamiclists.json
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 16] 请求参数：2iq6k7c98bcf
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:28] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:28] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:28] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:28] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:28] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:28] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:28] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:28] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/lists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_focus_dynamiclist
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/lists.json
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:28] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:28] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:28] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:28] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /member/dynamiclists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /dynamic/createtopic.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_post_dynamic_createtopic
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/createtopic.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：<Response [200]>
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET //dynamic/topictags.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_official_topictags
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083//dynamic/topictags.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /topic.json?id=23hu58lap4qb HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_topic_detail
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/topic.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":"23hu58lap4qb"}
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/topiclists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_topic_list
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/topiclists.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /dynamic/listsbytopic.json?id=+23hu58lap4qb&cond=0&sort=0 HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_listsbytopic
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/dynamic/listsbytopic.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":" 23hu58lap4qb","cond":"0","sort":"0"}
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_login_normal
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/login.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","captcha":"123456"}
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_login_password_wrong
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/login.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","captcha":"123458"}
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：100009.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：100009
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/membertags.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_membertags
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/membertags.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:29] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_Retrieve_password
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"2"}
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:29] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:29] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_answer
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"8"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_bphone
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"1"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_captchalogin
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"6"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_change_tradepd
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"11"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_changephone
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"4"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_reg
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"3"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：100003.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：100003
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /sms.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_sms_get_set_tradepd
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/sms.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"telephone": "15882481462","type":"10"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_qq
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "1","qq_openid":"BAB69821C0A1D6070490BE624733EEBD"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200033
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_wb
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "3","wb_openid":"5523464653"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:30] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/thirdlogin.json HTTP/1.1" 200 None
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 14] 测试用例：test_user_third_login_wx
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/member/thirdlogin.json
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 16] 请求参数：{"type": "2","wx_openid":"oRbznw-scYQ3qMVKIMsPHBoIcXxI"}
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:30] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:30] ERROR [test_a_post_adreward: test_v2_api.py, 63] 用例数据不存在
+[2020-02-25 16:28:30] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/adfinish.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_b_post_adreward
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/adfinish.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":""}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/activity/lists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_activity_list
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/lists.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/adflow.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_adflow
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/adflow.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/demand/category.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_demand_category
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/demand/category.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{"type":"skill"}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/demand/list.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_demand_list
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/demand/list.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{"row":"10","page":"1","type":"offical","category":"tiket","is_free":"1"}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/reward.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_reward
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/reward.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{"id":""}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/signlists.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_signlists
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/signlists.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/task/signreward.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_task_signreward
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/task/signreward.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：100010
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "GET /v2/activity/teamurl.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/activity/teamurl.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：200
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-25 16:28:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /v2/common/shareinfo.json HTTP/1.1" 200 None
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_shareinfo
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 15] url：http://119.27.167.20:8083/v2/common/shareinfo.json
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 16] 请求参数：{"type":"1","target":"2","relation_id":"1xweyk1lmjlk"}
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-25 16:28:31] INFO [log_case_info: case_log.py, 18] 实际结果：300081
+[2020-02-25 16:28:33] INFO [send_email: send_email.py, 32] 邮件发送完成
+[2020-02-25 16:28:33] INFO [<module>: run_main.py, 15] ================测试结束============
+[2020-02-27 11:43:36] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-27 11:43:36] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-27 11:45:55] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-27 11:45:55] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-27 11:45:55] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): qaqwxt.yay.com.cn:443
+[2020-02-27 11:45:55] DEBUG [_make_request: connectionpool.py, 396] https://qaqwxt.yay.com.cn:443 "GET /applet_qq/reg.json HTTP/1.1" 200 None
+[2020-02-27 11:45:55] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2020-02-27 11:45:55] INFO [log_case_info: case_log.py, 15] url：https://qaqwxt.yay.com.cn/applet_qq/reg.json
+[2020-02-27 11:45:55] INFO [log_case_info: case_log.py, 16] 请求参数：{"c_code":510100,"major_id":"275qbsfhh2c1","major_name":"Destiny"}
+[2020-02-27 11:45:55] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-27 11:45:55] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2020-02-27 11:46:31] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-27 11:46:31] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-27 11:46:31] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): qaqwxt.yay.com.cn:443
+[2020-02-27 11:46:31] DEBUG [_make_request: connectionpool.py, 396] https://qaqwxt.yay.com.cn:443 "POST /applet_qq/reg.json HTTP/1.1" 200 None
+[2020-02-27 11:46:31] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2020-02-27 11:46:31] INFO [log_case_info: case_log.py, 15] url：https://qaqwxt.yay.com.cn/applet_qq/reg.json
+[2020-02-27 11:46:31] INFO [log_case_info: case_log.py, 16] 请求参数：{"c_code":510100,"major_id":"275qbsfhh2c1","major_name":"Destiny"}
+[2020-02-27 11:46:31] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-27 11:46:31] INFO [log_case_info: case_log.py, 18] 实际结果：100020
+[2020-02-27 11:52:15] DEBUG [_new_conn: connectionpool.py, 206] Starting new HTTP connection (1): 119.27.167.20:8083
+[2020-02-27 11:52:15] DEBUG [_make_request: connectionpool.py, 396] http://119.27.167.20:8083 "POST /member/login.json HTTP/1.1" 200 None
+[2020-02-27 11:52:15] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): qaqwxt.yay.com.cn:443
+[2020-02-27 11:52:15] DEBUG [_make_request: connectionpool.py, 396] https://qaqwxt.yay.com.cn:443 "POST /applet_qq/reg.json HTTP/1.1" 200 None
+[2020-02-27 11:52:15] INFO [log_case_info: case_log.py, 14] 测试用例：test_get_teamurl
+[2020-02-27 11:52:15] INFO [log_case_info: case_log.py, 15] url：https://qaqwxt.yay.com.cn/applet_qq/reg.json
+[2020-02-27 11:52:15] INFO [log_case_info: case_log.py, 16] 请求参数：{"c_code":510100,"major_id":"275qbsfhh2c1","major_name":"Destiny"}
+[2020-02-27 11:52:15] INFO [log_case_info: case_log.py, 17] 期望结果：200.0
+[2020-02-27 11:52:15] INFO [log_case_info: case_log.py, 18] 实际结果：100020
