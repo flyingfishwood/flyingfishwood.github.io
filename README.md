@@ -1,2 +1,2 @@
 # datastesting
-数据分离测试
+Python+Request 接口测试框架；Unittest+AppiumUI测试
