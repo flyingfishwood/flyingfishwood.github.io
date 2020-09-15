@@ -1,14 +1,11 @@
 import unittest
 from src.UIelement.studypage import get_studypage
-from src.UIelement.PracticePage import HandlePracticePage,PracticePage
+from src.UIelement.PracticePage import HandlePracticePage, PracticePage
 from src.UIelement.loginpage import APP
 import time
 
 
-
-
-
-class test_practice(unittest.TestCase,PracticePage):
+class test_practice(unittest.TestCase, PracticePage):
 
     def setUp(self):
         APP.start(self)
@@ -29,18 +26,12 @@ class test_practice(unittest.TestCase,PracticePage):
             PracticePage.get_choose_answer(self)
             time.sleep(1)
             for j in range(2):
-                 PracticePage.get_check_answer(self)
-                 time.sleep(1)
+                PracticePage.get_check_answer(self)
+                time.sleep(1)
         time.sleep(2)
         text = HandlePracticePage.handle_finish_practice_text(self)
         print(text)
-        self.assertEqual(HandlePracticePage.handle_finish_practice_text(self),'恭喜完成练习','false')
-
-
-
-
-
-
+        self.assertEqual(HandlePracticePage.handle_finish_practice_text(self), '恭喜完成练习', 'false')
 
     def tearDown(self):
         APP.quit(self)
@@ -48,6 +39,3 @@ class test_practice(unittest.TestCase,PracticePage):
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
-
-
-

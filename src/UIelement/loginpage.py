@@ -5,9 +5,7 @@ import time
 class APP:
 
     def __int__(self, bool1):
-
         self.bool1 = bool1
-
 
     def start(self):
         caps = {"platformName": "android",
@@ -32,12 +30,6 @@ class APP:
         if current == "com.zhl.qiaokao.aphone.activity.MainActivity":
             bool1 = True
         return bool1
-
-
-
-
-
-
 
 
 class login_page(APP):
@@ -70,7 +62,7 @@ class login_page(APP):
         study = self.driver.find_element_by_id("com.zhl.qk.aphone:id/tab_learn").text
         return study
 
-    #设置btn
+    # 设置btn
     def get_setting_btn(self):
         x1 = 844 / 900
         y1 = 83.9 / 1600
@@ -84,20 +76,21 @@ class login_page(APP):
         self.driver.implicitly_wait(10)
         self.driver.tap([(xdict, ydict)])
 
-    #退出登录
+    # 退出登录
     def get_logout(self):
         logout = self.driver.find_element_by_id("com.zhl.qk.aphone:id/btn_login_out")
         return logout
 
-    #确定退出
+    # 确定退出
     def get_commit_quit(self):
         commit_quit = self.driver.find_element_by_id("com.zhl.qk.aphone:id/tv_right")
         return commit_quit
 
-    #登录页，手机号输出框
+    # 登录页，手机号输出框
     def get_phone_input(self):
         phone_input = self.driver.find_element_by_id("com.zhl.qk.aphone:id/person_login_et_phone")
         return phone_input
+
 
 class login_handle(login_page):
     def __init__(self):
@@ -112,11 +105,9 @@ class login_handle(login_page):
     def click_iv_pwd(self):
         self.get_iv_pwd().click()
 
-    def handle_person_login_et_pwd(self,pwd='123456'):
+    def handle_person_login_et_pwd(self, pwd='123456'):
         self.get_person_login_et_pwd().click()
         self.get_person_login_et_pwd().send_keys(pwd)
 
     def click_login_btn_register(self):
         self.get_login_btn_register().click()
-
-

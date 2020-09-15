@@ -27,8 +27,9 @@ def get_ucenter_db():
     )
     return conn
 
+
 def ucenter_query_db(sql):
-    ##执行sql语句
+    ## 执行sql语句
     logging.debug(sql)
     conn = get_ucenter_db()
     cur = conn.cursor()
@@ -39,6 +40,7 @@ def ucenter_query_db(sql):
     cur.close()
     conn.close()
     return result
+
 
 def query_db(sql):
     ##执行sql语句
